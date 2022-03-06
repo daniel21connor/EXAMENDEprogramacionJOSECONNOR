@@ -54,3 +54,43 @@ do{
 		
 		system("pause");
 	}
+	cout <<"---------------------------------------------------------------------"<<endl;
+  
+  cout <<"DIGITA LOS NUMEROS QUE DESEAS"<<endl;
+	 int nn1, impares= 0, parares = 0, sumPares = 0, sumImparre = 0, sumaPar1 = 0, sumampar11 = 0, par11 = 0;
+
+
+    for (int i = 0 ; i < 10; i++)
+    {
+        cout << "(" << i + 1 << "/10): ";
+        cin >> nn1;
+
+
+        if (nn1 % 2 == 0)
+        {
+           sumImparre += nn1;
+            impares++;
+        }
+        else
+            sumPares+= nn1;
+
+
+        if (nn1 % 2 == 0)
+        {
+            sumaPar1 += nn1;
+            par11++;
+        }
+      else
+            sumImparre += nn1;
+
+      }
+
+    cout << "\nLA SUMATORIA DE LOS NUMEROS IMPARES ES : " <<sumPares << endl;
+    cout <<"---------------------------------------------------------------------"<<endl;
+    cout << "\nLA SUMA DE LOS NUMEROS PARES ES : " << sumImparre << endl;
+    cout <<"---------------------------------------------------------------------"<<endl;
+	cout << "EL PROMEDIO DE LOS NUMEROS PARES: " << float(sumampar11/impares) << endl;
+	cout <<"---------------------------------------------------------------------"<<endl;
+    cout << "\nLOS NUMEROS PARES SON: " << par11 << endl;
+
+cout <<"---------------------------------------------------------------------"<<endl;

@@ -94,3 +94,37 @@ do{
     cout << "\nLOS NUMEROS PARES SON: " << par11 << endl;
 
 cout <<"---------------------------------------------------------------------"<<endl;
+int num;
+	cout<< "ESCOGE UN DiA DE LA SEMANA POR FAVOR:";
+	cin>> num;
+	switch (num){
+		case 1: cout<<"LUNES: TIENES QUE TRANAJAR ";
+		break;
+		system("pause");
+
+		case 2: cout<<"MARTES: TIENES QUE TRANAJAR ";
+		break;
+		system("pause");
+
+		case 3: cout<<"MIERCOLES: TIENES DESCANSO  ";
+		break;
+		system("pause");
+		case 4: cout<<"JUEVES:  TIENES QUE TRANAJAR ";
+		break;
+		system("pause");
+		case 5: cout<<"VIERNES:  TIENES QUE TRANAJAR ";
+		break;
+		system("pause");
+		case 6: cout<<"SABADO:   TIENES DESCANSO ";
+		break;
+		system("pause");
+			case 7: cout<<"DOMINGO:   TIENES QUE TRANAJAR ";
+		break;
+		system("pause");
+		default : cout<<"Los dias de la semana llegan hasta 7";
+		
+	 
+	 }
+  return 0;	 
+
+	}

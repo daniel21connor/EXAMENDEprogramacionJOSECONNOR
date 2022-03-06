@@ -30,6 +30,20 @@ do{
 	 return 0;	 
 	}
 	cout <<"---------------------------------------------------------------------"<<endl;
+	int numero, x=1;
+	cout<<"\nEscribe el numero que quieres factorial: ";	
+	cin>>numero;
+
+	for(int i=1; i<=numero;i++){
+		x = x * i;
+		
+	}
+	cout<<"\nE1 EL factorial de este numero es: " <<x<<endl;
+	
+	system ("pause"); 
+	
+	cout <<"---------------------------------------------------------------------"<<endl;
+	
 		int numere;
 
 		cout<<"ESCRIBE EL NUMERO QUE DESEAS MULTIPLICAR: ";

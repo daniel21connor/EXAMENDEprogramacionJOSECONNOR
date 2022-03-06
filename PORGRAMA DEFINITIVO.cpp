@@ -29,4 +29,14 @@ do{
 	else { cout<< "\n HAS SUPERADO LA CANTIAD DE INTENTOS";
 	 return 0;	 
 	}
+	cout <<"---------------------------------------------------------------------"<<endl;
+		int numere;
+
+		cout<<"ESCRIBE EL NUMERO QUE DESEAS MULTIPLICAR: ";
+		cin>>numere;	
+		for(int i=1;i<=20;i++){ 
+		cout<<numere<<" * "<<i<<"="<<numere*i<<endl;
+		}
+		
+		system("pause");
 	}
